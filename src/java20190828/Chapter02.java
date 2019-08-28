@@ -99,7 +99,9 @@ public class Chapter02 {
 		byte byteVar3 = 125;
 		int intVar3 = byteVar3;
 		System.out.println(intVar3);
-
+		
+		
+		// *변수의 사용 범위 (scope)
 		int intVar9;
 //		System.out.println(intVar9);
 
