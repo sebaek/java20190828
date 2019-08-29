@@ -9,5 +9,12 @@ public class Excercise05 {
 				}
 			}
 		}
+		
+		for (int x = 1; x <= 10; x++) {
+			double y = (60 - 4 * x) / 5.0;
+			if (y % 1 == 0) {
+				System.out.println(x + ", " + (int) y );
+			}
+		}
 	}
 }
