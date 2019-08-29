@@ -5,10 +5,12 @@ public class Excercise08 {
 		double x = 5.0;
 		double y = 0.0;
 		
+//		if (y == 0.0)
+		
 		double z = x % y;
 //		System.out.println(z);
 		
-		if (z == Double.NaN) {
+		if (Double.isNaN(z)) {
 			System.out.println("0.0으로 나눌 수 없습니다.");
 		} else {
 			double result = z + 10;
