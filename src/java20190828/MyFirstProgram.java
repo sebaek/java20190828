@@ -3,12 +3,12 @@ package java20190828;
 public class MyFirstProgram {
 	public static void main(String[] args) {
 		System.out.print("**");
-		// ÇÁ·Î±×·¥ ½ÇÇàÁß.
-		System.out.println("¹İ°©½À´Ï´Ù.");
+		// í”„ë¡œê·¸ë¨ ì‹¤í–‰ì¤‘.
+		System.out.println("ë°˜ê°‘ìŠµë‹ˆë‹¤.");
 		
 		/*
-		System.out.println("Àú´Â À¯Àç¼®ÀÔ´Ï´Ù.");
-		System.out.println("¿À´ÃÀº ¼ö¿äÀÏÀÔ´Ï´Ù.");
+		System.out.println("ì €ëŠ” ìœ ì¬ì„ì…ë‹ˆë‹¤.");
+		System.out.println("ì˜¤ëŠ˜ì€ ìˆ˜ìš”ì¼ì…ë‹ˆë‹¤.");
 		*/
 		
 		System.out.print("1");

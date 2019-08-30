@@ -2,11 +2,11 @@ package java20190828;
 
 public class Chapter02 {
 	public static void main(String[] args) {
-		// º¯¼ö ¼±¾ğ
+		// ë³€ìˆ˜ ì„ ì–¸
 		// type name;
 
-		// º¯¼ö¸í: $ _ ¿µ¹®´ë¼Ò¹®ÀÚ ¼ıÀÚ(¸Ç¾ÕºÒ°¡)
-		// lowerÄ«¸áÄÉÀÌ½º·Î ÀÛ¼º ex) firstName, homeAddress
+		// ë³€ìˆ˜ëª…: $ _ ì˜ë¬¸ëŒ€ì†Œë¬¸ì ìˆ«ì(ë§¨ì•ë¶ˆê°€)
+		// lowerì¹´ë©œì¼€ì´ìŠ¤ë¡œ ì‘ì„± ex) firstName, homeAddress
 
 		int name;
 		name = 345;
@@ -15,18 +15,18 @@ public class Chapter02 {
 
 		System.out.println(name);
 
-		// Å¸ÀÔ
-		// 1. ±âº»µ¥ÀÌÅÍ Å¸ÀÔ
-		// ÃÑ 8°³
-		// ¼ıÀÚÇü 6°³
-		// Á¤¼öÇü 4°³ byte(1), short(2), int(4), long(8)
-		// ½Ç¼öÇü 2°³ float, double
-		// ¹®ÀÚÇü 1°³ char(2)
-		// ³í¸®Çü 1°³ boolean
+		// íƒ€ì…
+		// 1. ê¸°ë³¸ë°ì´í„° íƒ€ì…
+		// ì´ 8ê°œ
+		// ìˆ«ìí˜• 6ê°œ
+		// ì •ìˆ˜í˜• 4ê°œ byte(1), short(2), int(4), long(8)
+		// ì‹¤ìˆ˜í˜• 2ê°œ float, double
+		// ë¬¸ìí˜• 1ê°œ char(2)
+		// ë…¼ë¦¬í˜• 1ê°œ boolean
 		//
-		// 2. ÂüÁ¶Çüµ¥ÀÌÅÍ Å¸ÀÔ
+		// 2. ì°¸ì¡°í˜•ë°ì´í„° íƒ€ì…
 
-		// byte: 1byte·Î °ªÀ» Ç¥Çö
+		// byte: 1byteë¡œ ê°’ì„ í‘œí˜„
 		// -128 ~ 127
 
 		byte byteVar;
@@ -34,42 +34,42 @@ public class Chapter02 {
 //		byteVar = 250;
 		System.out.println(byteVar);
 
-		// short: 2byte·Î Ç¥Çö
+		// short: 2byteë¡œ í‘œí˜„
 		// -32768 ~ 32767
 		short shortVar;
 		shortVar = 32767;
 		System.out.println(shortVar);
 
-		// int: 4byte·Î Ç¥Çö
+		// int: 4byteë¡œ í‘œí˜„
 		// -2147483648 ~ 2147483647
 		int intVar;
 		intVar = 2147483647;
 		System.out.println(intVar);
 
-		// long: 8byte·Î Ç¥Çö
+		// long: 8byteë¡œ í‘œí˜„
 		// -9223372036854775808 ~ 9223372036854775807
 		long longVar;
 		longVar = 9223372036854775807L;
 		System.out.println(longVar);
 
-		// float: 4byte·Î Ç¥Çö
+		// float: 4byteë¡œ í‘œí˜„
 		float floatVar;
 		floatVar = 3.14F;
 		System.out.println(floatVar);
 
-		// double: 8byte·Î Ç¥Çö
+		// double: 8byteë¡œ í‘œí˜„
 		double doubleVar;
 		doubleVar = 3.14;
 		System.out.println(doubleVar);
 
-		// char: 2byte·Î Ç¥Çö
+		// char: 2byteë¡œ í‘œí˜„
 		char charVar;
 		char charVar2;
 		char charVar3;
 		char charVar4;
 		char charVar5;
-		charVar = 'ÀÚ';
-		charVar2 = '¹Ù';
+		charVar = 'ì';
+		charVar2 = 'ë°”';
 		charVar3 = 'J';
 		charVar4 = 65;
 		charVar5 = '\uac00';
@@ -85,15 +85,15 @@ public class Chapter02 {
 		booleanVar = false;
 		System.out.println(booleanVar);
 
-		// * Å¸ÀÔº¯È¯
+		// * íƒ€ì…ë³€í™˜
 		int intVar1 = 129;
 		byte byteVar1;
-		byteVar1 = (byte) intVar1; // °­Á¦ Çüº¯È¯ (type conversion)
+		byteVar1 = (byte) intVar1; // ê°•ì œ í˜•ë³€í™˜ (type conversion)
 		System.out.println(byteVar1);
 
 		int intVar2 = 125;
 		byte byteVar2;
-		byteVar2 = (byte) intVar2; // °­Á¦ Çüº¯È¯ (type conversion)
+		byteVar2 = (byte) intVar2; // ê°•ì œ í˜•ë³€í™˜ (type conversion)
 		System.out.println(byteVar2);
 
 		byte byteVar3 = 125;
@@ -101,7 +101,7 @@ public class Chapter02 {
 		System.out.println(intVar3);
 		
 		
-		// *º¯¼öÀÇ »ç¿ë ¹üÀ§ (scope)
+		// *ë³€ìˆ˜ì˜ ì‚¬ìš© ë²”ìœ„ (scope)
 		int intVar9;
 //		System.out.println(intVar9);
 

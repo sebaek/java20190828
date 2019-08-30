@@ -3,8 +3,8 @@ package java20190828;
 public class Chapter03 {
 	public static void main(String[] args) {
 
-		// . ´ÜÇ×¿¬»êÀÚ
-		// .. ºÎÈ£¿¬»êÀÚ
+		// . ë‹¨í•­ì—°ì‚°ì
+		// .. ë¶€í˜¸ì—°ì‚°ì
 		// ... +, -
 
 		int i = 3;
@@ -14,7 +14,7 @@ public class Chapter03 {
 		System.out.println(j);
 		System.out.println(k);
 
-		// .. Áõ°¨¿¬»êÀÚ
+		// .. ì¦ê°ì—°ì‚°ì
 		// ... ++, --
 
 		int intvalue1 = 5;
@@ -29,18 +29,18 @@ public class Chapter03 {
 		System.out.println(intvalue3);
 		System.out.println(intvalue1);
 
-		// .. ³í¸® ¿¬»êÀÚ
+		// .. ë…¼ë¦¬ ì—°ì‚°ì
 		// ... ! & |
 		// ... !
 		boolean bool1 = true;
 		System.out.println(!bool1);
 		System.out.println(bool1);
 
-		// .. ºñÆ® ¿¬»êÀÚ
+		// .. ë¹„íŠ¸ ì—°ì‚°ì
 		// ... ~ & |
 
-		// . ÀÌÇ× ¿¬»êÀÚ
-		// .. »ê¼ú ¿¬»êÀÚ
+		// . ì´í•­ ì—°ì‚°ì
+		// .. ì‚°ìˆ  ì—°ì‚°ì
 		// ... + - * / %
 
 		int intvalue4 = 15;
@@ -56,7 +56,7 @@ public class Chapter03 {
 
 		if (intvalue5 != 0) {
 
-			// 0À¸·Î ³ª´©´Â °ÍÀº ·±Å¸ÀÓ¿¡·¯.
+			// 0ìœ¼ë¡œ ë‚˜ëˆ„ëŠ” ê²ƒì€ ëŸ°íƒ€ì„ì—ëŸ¬.
 			int intvalue9 = intvalue4 / intvalue5;
 			System.out.println(intvalue9);
 
@@ -64,7 +64,7 @@ public class Chapter03 {
 
 		short s = 3;
 		short t = 4;
-//		short u = s + t; //int·Î º¯È¯ ÈÄ¿¡ °è»êµÊ.
+//		short u = s + t; //intë¡œ ë³€í™˜ í›„ì— ê³„ì‚°ë¨.
 
 		double doublevar1 = 0.1;
 		double doublevar2 = 0.2;
@@ -79,10 +79,10 @@ public class Chapter03 {
 		double doublevar7 = doublevar6 - 999999999999l;
 		System.out.println(doublevar7);
 
-		// .. ¹®ÀÚ¿­
+		// .. ë¬¸ìì—´
 		// ... +
-		String str1 = "ÀÌ°ÍÀÌ";
-		String str2 = "ÀÚ¹Ù´Ù";
+		String str1 = "ì´ê²ƒì´";
+		String str2 = "ìë°”ë‹¤";
 		String str3 = str1 + str2;
 		int intvar1 = 3;
 		String str4 = str1 + intvar1;
@@ -94,27 +94,27 @@ public class Chapter03 {
 		String str6 = "11";
 //		String str7 = str5 * str6;
 		
-		// .. ºñ±³ ¿¬»êÀÚ
+		// .. ë¹„êµ ì—°ì‚°ì
 		// ... == != > >= < <= 
 		System.out.println(3 == 3);
 		System.out.println(3 != 3);
 		System.out.println(3 > 3);
 		System.out.println(3 >= 3);
 		
-		// ... == ¸¦ ÂüÁ¶Çü µ¥ÀÌÅÍ Å¸ÀÔ¿¡ »ç¿ëÇÒ ¶§
-		String strVar1 = "À¯Àç¼®";
-		String strVar2 = "À¯Àç¼®";
+		// ... == ë¥¼ ì°¸ì¡°í˜• ë°ì´í„° íƒ€ì…ì— ì‚¬ìš©í•  ë•Œ
+		String strVar1 = "ìœ ì¬ì„";
+		String strVar2 = "ìœ ì¬ì„";
 		System.out.println(strVar1 == strVar2);
 		
-		String strVar3 = new String("À¯Àç¼®");
-		String strVar4 = new String("À¯Àç¼®");
+		String strVar3 = new String("ìœ ì¬ì„");
+		String strVar4 = new String("ìœ ì¬ì„");
 		System.out.println(strVar1);
 		System.out.println(strVar3);
 		System.out.println(strVar1 == strVar3);
 		System.out.println(strVar3 == strVar4);
 		System.out.println(strVar3.equals(strVar4));
 		
-		// .. ³í¸® ¿¬»êÀÚ
+		// .. ë…¼ë¦¬ ì—°ì‚°ì
 		// ... && ||
 		System.out.println();
 		System.out.println(true && true);
@@ -129,10 +129,10 @@ public class Chapter03 {
 		System.out.println(false || false);
 		
 		
-		// .. ´ëÀÔ¿¬»êÀÚ
+		// .. ëŒ€ì…ì—°ì‚°ì
 		// ... = += -= *= /= %= 
 		
-		// . »ïÇ×¿¬»êÀÚ
+		// . ì‚¼í•­ì—°ì‚°ì
 		// .. ? :
 		int intvalue10 = 3;
 		int intvalue11 = true ? 10 : 0;

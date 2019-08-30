@@ -2,63 +2,63 @@ package chapter04;
 
 public class Chapter04 {
 	public static void main(String[] args) {
-		// if¹®
+		// ifë¬¸
 		
-		//if (/*Á¶°Ç½Ä*/) {
+		//if (/*ì¡°ê±´ì‹*/) {
 		//}
 		
 		if (true) {
-			System.out.println("¹«Á¶°Ç true");
+			System.out.println("ë¬´ì¡°ê±´ true");
 		}
 		
 		if (false) {
-			System.out.println("¹«Á¶°Ç false");
+			System.out.println("ë¬´ì¡°ê±´ false");
 		}
 		
 		int var1 = 3;
 		
 		if (var1 >= 3) {
-			System.out.println("var1Àº 3º¸´Ù Å©°Å³ª °°´Ù.");
+			System.out.println("var1ì€ 3ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ë‹¤.");
 		}
 		
 		
 		var1 = 2;
 		if (var1 >= 3) {
-			System.out.println("var1Àº 3º¸´Ù Å©°Å³ª °°´Ù.");
+			System.out.println("var1ì€ 3ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ë‹¤.");
 		} else {
-			System.out.println("var1Àº 3º¸´Ù ÀÛ´Ù.");
+			System.out.println("var1ì€ 3ë³´ë‹¤ ì‘ë‹¤.");
 		}
 		
 		
 		if (var1 >= 3) {
-			System.out.println("var1Àº 3º¸´Ù Å©°Å³ª °°´Ù.");
+			System.out.println("var1ì€ 3ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ë‹¤.");
 		} else if (var1 >= 0 ){
-			System.out.println("var1Àº 3º¸´Ù ÀÛ°í");
-			System.out.println("0º¸´Ù Å©°Å³ª °°´Ù.");
+			System.out.println("var1ì€ 3ë³´ë‹¤ ì‘ê³ ");
+			System.out.println("0ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ë‹¤.");
 		} else if (var1 >= -3 ){
-			System.out.println("var1Àº 0º¸´Ù ÀÛ°í");
-			System.out.println("-3º¸´Ù Å©°Å³ª °°´Ù.");
+			System.out.println("var1ì€ 0ë³´ë‹¤ ì‘ê³ ");
+			System.out.println("-3ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ë‹¤.");
 		} else {
-			System.out.println("-3º¸´Ù ÀÛ´Ù.");
+			System.out.println("-3ë³´ë‹¤ ì‘ë‹¤.");
 		}
 		
 		
 		// switch case
-		switch ("ÇÇÀÚ") {
-		case "¼ö¹Ú":
-			System.out.println("¼ö¹ÚÀ» ¸Ô´Ù.");
+		switch ("í”¼ì") {
+		case "ìˆ˜ë°•":
+			System.out.println("ìˆ˜ë°•ì„ ë¨¹ë‹¤.");
 			break;
 		
-		case "»ç°ú":
-			System.out.println("»ç°ú¸¦ ¸Ô´Ù.");
+		case "ì‚¬ê³¼":
+			System.out.println("ì‚¬ê³¼ë¥¼ ë¨¹ë‹¤.");
 //			break;
 			
-		case "µş±â":
-			System.out.println("µş±â¸¦ ¸Ô´Ù.");
+		case "ë”¸ê¸°":
+			System.out.println("ë”¸ê¸°ë¥¼ ë¨¹ë‹¤.");
 			break;
 
 		default:
-			System.out.println("¾Æ¹«°Íµµ ¸ø¸Ô´Ù.");
+			System.out.println("ì•„ë¬´ê²ƒë„ ëª»ë¨¹ë‹¤.");
 			break;
 		}
 		
@@ -74,7 +74,7 @@ public class Chapter04 {
 			}
 		}
 		
-		char[] array = {'°¡', '³ª', '´Ù'};
+		char[] array = {'ê°€', 'ë‚˜', 'ë‹¤'};
 		
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);

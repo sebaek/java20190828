@@ -12,26 +12,26 @@ public class Excersice07 {
 
 		while (run) {
 			System.out.println("--------------------------------");
-			System.out.println("1.¿¹±Ý | 2.Ãâ±Ý | 3.ÀÜ°í | 4.Á¾·á");
+			System.out.println("1.ì˜ˆê¸ˆ | 2.ì¶œê¸ˆ | 3.ìž”ê³  | 4.ì¢…ë£Œ");
 			System.out.println("--------------------------------");
-			System.out.print("¼±ÅÃ>");
+			System.out.print("ì„ íƒ>");
 
 			String select = scanner.nextLine();
 			String cash = "";
 
 			switch (select) {
 			case "1":
-				System.out.print("¿¹±Ý¾×>");
+				System.out.print("ì˜ˆê¸ˆì•¡>");
 				cash = scanner.nextLine();
 				balance = balance + Integer.parseInt(cash);
 				break;
 			case "2":
-				System.out.print("Ãâ±Ý¾×>");
+				System.out.print("ì¶œê¸ˆì•¡>");
 				cash = scanner.nextLine();
 				balance = balance - Integer.parseInt(cash);
 				break;
 			case "3":
-				System.out.println("ÀÜ°í>" + balance);
+				System.out.println("ìž”ê³ >" + balance);
 				break;
 			case "4":
 				run = false;
@@ -42,6 +42,6 @@ public class Excersice07 {
 			}
 		}
 
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 	}
 }
