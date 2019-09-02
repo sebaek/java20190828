@@ -1,6 +1,7 @@
 package chapter05;
 
 public class Chapter05 {
+	@SuppressWarnings({"unused"})
 	public static void main(String[] args) {
 		// 참조 타입 (reference type)
 		// 그림 참조...
