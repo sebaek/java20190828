@@ -6,8 +6,8 @@ public class Example {
 		B b = new B();
 		
 //		int a = b.field1;
-		a.method1();
-		b.method1();
+//		a.method1();
+		b.method1("");
 		
 		
 	}
