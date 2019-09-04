@@ -8,6 +8,8 @@ public class ChildExample {
 		parent.method2();
 //		parent.method3();
 		
+		parent = new Parent();
+		
 		System.out.println(parent instanceof Child);
 		System.out.println(parent instanceof Parent);
 		System.out.println(parent instanceof Child2);
