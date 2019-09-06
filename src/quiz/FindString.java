@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class FindString {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		Scanner scanner = new Scanner(new File("jean.txt"));
 		
 		while (scanner.hasNextLine()) {
