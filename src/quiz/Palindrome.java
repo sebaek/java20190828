@@ -11,13 +11,13 @@ public class Palindrome {
 			if (text.equals("종료")) {
 				break;
 			}
-			panlindrome(text);
+			palindrome(text);
 		}
 		System.out.println("종료 되었습니다.");
 		scanner.close();
 	}
 
-	private static void panlindrome(String text) {
+	private static void palindrome(String text) {
 		text = text.toLowerCase();
 		
 		int left = 0;
