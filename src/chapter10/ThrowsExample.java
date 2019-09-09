@@ -5,11 +5,11 @@ public class ThrowsExample {
 		findClass2();
 	}
 	
-	private static void findClass2() throws ClassNotFoundException {
+	private static void findClass2() throws Exception {
 		findClass();
 	}
 
-	public static void findClass() throws ClassNotFoundException {
+	public static void findClass() throws Exception {
 		Class clazz = Class.forName("java.lang.String2");
 	}
 }
