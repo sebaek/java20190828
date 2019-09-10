@@ -30,7 +30,7 @@ public class WrapperTest {
 //		HashSet<int> set3 = new HashSet<int>();
 //		set2.add(new Student("5"));
 		set2.add(Integer.valueOf(3));
-		set2.add(6);
+		set2.add(3);
 		System.out.println(set2.size());
 		System.out.println();
 		int sum = 0;
