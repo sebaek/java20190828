@@ -7,6 +7,10 @@ class Member {
 	
 	
 	@Override
+	public String toString() {
+		return "Member [i=" + i + ", name=" + name + "]";
+	}
+	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
@@ -80,6 +84,9 @@ public class ObjectTest {
 		System.out.println(m1 == m2);
 		
 		System.out.println(m1.equals(m2));
+		
+		System.out.println(m1.toString());
+		System.out.println(m1);
 		
 		
 	}
