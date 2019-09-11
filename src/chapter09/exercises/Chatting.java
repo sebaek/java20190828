@@ -2,7 +2,7 @@ package chapter09.exercises;
 
 public class Chatting {
 	void  start(String chatId) {
-		String nickName = null;
+		String nickName = null; 
 		nickName = chatId;
 		
 		Chat chat = new Chat() {
