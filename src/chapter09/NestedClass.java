@@ -1,6 +1,9 @@
 package chapter09;
 
 public class NestedClass {
+	interface NestedInterface {
+		void method();
+	}
 	class A {
 		void methodA() {
 			
