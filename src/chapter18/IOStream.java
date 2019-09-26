@@ -7,13 +7,13 @@ import java.io.OutputStream;
 
 public class IOStream {
 	public static void main(String[] args) throws Exception {
-		read1();
+//		read1();
 //		read2();
 //		read3();
 		
 //		write1();
 //		write2();
-//		write3();
+		write3();
 		
 	}
 	
@@ -24,7 +24,8 @@ public class IOStream {
 	public static void write3() throws Exception {
 		OutputStream os = new FileOutputStream("output.txt");
 		byte[] b = "한글".getBytes();
-		os.write(b, 2, 2);
+		System.out.println(b.length);
+		os.write(b, 3, 3);
 		
 		
 		os.flush();

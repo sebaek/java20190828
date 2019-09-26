@@ -2,13 +2,37 @@
 package chapter18;
 
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.Reader;
+import java.io.Writer;
 
 public class ReaderWriter {
 	public static void main(String[] args) throws Exception {
 //		read1();
 //		read2();
-		read3();
+//		read3();
+		
+		write1();
+	}
+	
+	public static void write1() throws Exception {
+		Writer w = new FileWriter("output.txt");
+		
+		w.write('한');
+		
+		char[] chars = {'글', '은', '세', '종', '대', '왕'};
+		
+		w.write(chars);
+		
+		w.write(chars, 2, 4);
+		
+		w.write("광개토대왕");
+		
+		w.write("광개토대왕", 3, 2);
+		
+		
+		w.flush();
+		w.close();
 	}
 	
 	public static void read3() throws Exception {
