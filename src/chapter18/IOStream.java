@@ -1,20 +1,19 @@
 package chapter18;
-
+// 한글 입력..
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
 public class IOStream {
 	public static void main(String[] args) throws Exception {
-//		read1();
+		read1();
 //		read2();
 //		read3();
 		
 //		write1();
 //		write2();
-		write3();
+//		write3();
 		
 	}
 	
