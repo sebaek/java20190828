@@ -1,6 +1,7 @@
 .classpath
 .project
 .metadata
+src/test/
 bin/
 tmp/
 *.tmp

@@ -1,9 +1,14 @@
 package test;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.HashSet;
 
 public class TestEx {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
+		String str = "한글";
 		Test t = new Test();
 		Number s = 3;
 		System.out.println(t.getClass());
@@ -21,5 +26,27 @@ public class TestEx {
 		t2.setName("hong");
 		set.add(t2);
 		System.out.println(set);
+		
+		System.out.println();
+		int i = 0;
+		System.out.println(i = 1);
+		
+		InputStream is = new FileInputStream("./src/test/TestEx.java");
+		Reader reader = new InputStreamReader(is);
+		
+		int ch = 0;
+		while ((ch = reader.read()) != -1) {
+			System.out.print((char) ch);
+		}
+		
+		
+		is.close();
+		
 	}
 }
+
+
+
+
+
+
