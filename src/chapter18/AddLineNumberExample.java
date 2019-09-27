@@ -12,8 +12,8 @@ public class AddLineNumberExample {
 		int lineNum = 0;
 		while (scanner.hasNextLine()) {
 			lineNum++;
-			System.out.printf("%3d:", lineNum);
-			System.out.println(scanner.nextLine());
+			System.out.printf("%3d:%s%n", lineNum, scanner.nextLine());
+//			System.out.println(scanner.nextLine());
 		}
 			
 		
