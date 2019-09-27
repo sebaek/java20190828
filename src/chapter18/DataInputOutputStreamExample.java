@@ -29,6 +29,8 @@ public class DataInputOutputStreamExample {
 		System.out.println(c);
 		System.out.println(i);
 		
+		dis.close();
+		
 	}
 }
 
