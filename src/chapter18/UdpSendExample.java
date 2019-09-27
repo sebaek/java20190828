@@ -9,7 +9,7 @@ public class UdpSendExample {
 		DatagramSocket datagramSocket = new DatagramSocket();
 
 		byte[] data = "메시지".getBytes("UTF-8");
-		DatagramPacket packet = new DatagramPacket(data, data.length, new InetSocketAddress("localhost", 5001));
+		DatagramPacket packet = new DatagramPacket(data, data.length, new InetSocketAddress("211.183.9.47", 5001));
 		
 		datagramSocket.send(packet);
 		
