@@ -9,7 +9,7 @@ import java.io.OutputStream;
 public class ServerExample {
 	public static void main(String[] args) throws Exception {
 		ServerSocket serverSocket = new ServerSocket();
-		serverSocket.bind(new InetSocketAddress("localhost", 8080));
+		serverSocket.bind(new InetSocketAddress("211.183.9.38", 5001));
 		System.out.println("[연결 기다림]");
 		Socket socket = serverSocket.accept();
 		InetSocketAddress isa = (InetSocketAddress) socket.getRemoteSocketAddress();

@@ -9,7 +9,7 @@ public class ClientExample {
 	public static void main(String[] args) throws Exception {
 		Socket socket = new Socket();
 		System.out.println("[연결 요청]");
-		socket.connect(new InetSocketAddress("localhost", 8080));
+		socket.connect(new InetSocketAddress("localhost", 5001));
 		System.out.println("[연결 성공]");
 		
 		OutputStream os = socket.getOutputStream();
