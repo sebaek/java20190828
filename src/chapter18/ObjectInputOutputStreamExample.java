@@ -8,21 +8,25 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 class MyClass implements Serializable {
-	
+	static final long serialVersionUID = 1L;
+	int i;
+	String b;
+	static String c;
+	transient int d;
 }
 
 public class ObjectInputOutputStreamExample {
 	public static void main(String[] args) throws Exception {
-		FileOutputStream fos = new FileOutputStream("object.dat");
-		ObjectOutputStream oos = new ObjectOutputStream(fos);
-
-		oos.writeObject(new MyClass());
-		oos.writeObject(new ArrayList<String>());
-		oos.writeObject("홍길동");
-		
-		oos.flush();
-		oos.close();
-		fos.close();
+//		FileOutputStream fos = new FileOutputStream("object.dat");
+//		ObjectOutputStream oos = new ObjectOutputStream(fos);
+//
+//		oos.writeObject(new MyClass());
+//		oos.writeObject(new ArrayList<String>());
+//		oos.writeObject("홍길동");
+//		
+//		oos.flush();
+//		oos.close();
+//		fos.close();
 		
 		FileInputStream fis = new FileInputStream("object.dat");
 		ObjectInputStream ois = new ObjectInputStream(fis);
