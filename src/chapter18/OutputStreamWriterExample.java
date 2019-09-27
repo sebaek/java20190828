@@ -1,6 +1,5 @@
 package chapter18;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
